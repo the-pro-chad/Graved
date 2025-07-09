@@ -1,0 +1,7 @@
+//Crear un arreglo de tipo int de 10 elementos
+array:arr?int(10)
+row = 0
+//Recorrer y mostrar el contenido del arreglo cuyos valores de inicializacion por defecto son: -1
+each (row get_of arr) then
+    puts("&{row}\n")
+end
