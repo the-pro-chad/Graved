@@ -42,3 +42,5 @@ else
 end
 ```
 Estos son algunas cosas, mas adelante agregare mas porque hay mas.
+## Adicional
+Si deseas contribuir o usar este codigo eres libre de ello.
