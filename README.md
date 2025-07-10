@@ -42,5 +42,7 @@ else
 end
 ```
 Estos son algunas cosas, mas adelante agregare mas porque hay mas.
+## Se actualizara de forma constante?
+No, pero se actualizara.
 ## Adicional
 Si deseas contribuir o usar este codigo eres libre de ello.
