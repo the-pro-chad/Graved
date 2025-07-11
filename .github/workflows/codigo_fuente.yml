@@ -1,0 +1,22 @@
+name: Graved - codigo fuente
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  publish_source:
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v4
+
+      - name: comprime el codigo
+        run: zip -r codigo_fuente.zip .
+
+      - name: publicar
+        uses: actions/upload-artifact@v4
+        with:
+          name: Source code
+          path: codigo_fuente.zip
